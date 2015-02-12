@@ -24,8 +24,15 @@ var pizzasOrdered = 15;
 // Divide this product by the amount of people at the party to determine how many pieces each person gets.
 var slicesPerPerson = (pizzasOrdered * slicePerPizza) / peopleAtParty;
 
-// Print out the output slicesPerPerson
+// Print out the output amount of slices per person
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
 
 
 
+// Slice of Pie part II
+
+// Use the modulo operator (%) in place of the division operator (/) to round off pizza slice fractions into whole slices.
+var remainder = (pizzasOrdered * slicePerPizza) % peopleAtParty;
+
+// Print out the output amount of remaining whole pizza slices.
+console.log("Sparky got " + remainder + " slices of pizza.");
