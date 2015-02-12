@@ -51,3 +51,25 @@ var average = total / 5
 // Print the output total amount spent and average spent per week.
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
 
+
+
+// Discounts: Finding discounted price with and without sales tax
+const item = "laptop";
+var originalPrice = 1000;
+var percentDiscount = 10;
+var percentSalesTax = 6;
+
+// Divide the discount percent by 100 and multiply by the original price to find the dollar amount of the discount
+var discount = (percentDiscount / 100) * originalPrice;
+
+// Subtract the discount from the original price to find the new discounted price.
+var newPrice = originalPrice - discount;
+
+// Divide the sale tax percent by 100 and multiply by the new discounted price to find the sales tax.
+var salesTax = (percentSalesTax / 100) * newPrice;
+
+// Add the sales tax to the new discounted price to find the total.
+var newPriceWithTax = newPrice + salesTax;
+
+// Print the output total price of the laptop.
+console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + percentDiscount + "% discount, it is now $" + newPrice + " without tax, and $" + newPriceWithTax + " with tax.");
