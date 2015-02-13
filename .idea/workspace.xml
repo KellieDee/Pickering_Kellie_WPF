@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d18e1f6-988c-453d-8a6f-1a8f1d926cd6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pickering_Kellie_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Pickering_Kellie_Expressions_Assignment/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pickering_Kellie_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pickering_Kellie_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58947366" vertical-offset="290" max-vertical-offset="825">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4" vertical-offset="350" max-vertical-offset="825">
+              <caret line="36" column="179" selection-start-line="36" selection-start-column="179" selection-end-line="36" selection-end-column="179" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -219,6 +218,38 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -344,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pickering_Kellie_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58947366" vertical-offset="290" max-vertical-offset="825">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4" vertical-offset="350" max-vertical-offset="825">
+          <caret line="36" column="179" selection-start-line="36" selection-start-column="179" selection-end-line="36" selection-end-column="179" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

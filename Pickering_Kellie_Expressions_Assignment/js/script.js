@@ -34,7 +34,7 @@ var average = (incomeWage + incomeTips) / daysWorked;
 var rndAvg = Math.round(average);
 
 // Print the output of average money earned per day.
-console.log("You worked " + hoursWorked + " hours this weekend and made " + incomeWage + " in wages and " + incomeTips + " in tips, for an average of " + rndAvg + " per day.");
+console.log("You worked " + hoursWorked + " hours this weekend and made $" + incomeWage + " in wages and $" + incomeTips + " in tips, for an average of $" + rndAvg + " per day.");
 
 
 /*
