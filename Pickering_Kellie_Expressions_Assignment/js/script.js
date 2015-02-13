@@ -14,12 +14,12 @@
 const daysWorked = 3
 var wage = prompt("We will calculate your weekend income. \nWhat is your hourly wage?");
 var hoursWorked = prompt("How many hours did you work Friday through Sunday?");
-var friday = prompt("What did you earn in tips on Friday?");
-var saturday = prompt("What did you earn in tips on Saturday?");
-var sunday = prompt("What did you earn in tips on Sunday?");
+var fridayTips = prompt("What did you earn in tips on Friday?");
+var saturdayTips = prompt("What did you earn in tips on Saturday?");
+var sundayTips = prompt("What did you earn in tips on Sunday?");
 
 // Set up an array with daily tip amounts based on user prompts.
-var tips = [friday, saturday, sunday];
+var tips = [fridayTips, saturdayTips, sundayTips];
 
 // Add up all daily tips to find the total amount.
 var incomeTips = Number(tips[0]) + Number(tips[1]) + Number(tips[2]);
