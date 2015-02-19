@@ -39,9 +39,30 @@ if(username != namePrompt){
 if(username === namePrompt && password != passPrompt){
     console.log("Password does not match our records.");
 }
-
 /*
     Tested code with "Admin" and "12345"    Result: "Welcome, Admin!"
     Tested code with "Kellie" and "12345"   Result: "User not found. Try again."
     Tested code with "Admin" and "23456"    Result: "Password does not match our records."
+ */
+
+
+// MOVIE TICKET PRICE (GROUP 3)
+const price = 12;
+const discount = 7;
+var movieTime = 12; // Using a 24-hour scale
+var customerAge =45;
+
+
+if(customerAge >= 55 || customerAge < 10 || movieTime > 15 && movieTime < 17){
+    // Discount is given to customers under 10, customers 55 and over, and movie times between 3 PM and 5 PM.
+    console.log("The ticket price is $" + discount);
+}else{
+    // All other ages and times are given the normal price.
+    console.log("The ticket price is $" + price);
+}
+/*
+    Tested code with Age = 20 and Time = 14     Result: $12
+    Tested code with Age = 55 and Time = 14     Result: $7
+    Tested code with Age = 20 and Time = 16     Result: $7
+    Tested code with Age = 45 and Time = 12     Result: $12
  */
