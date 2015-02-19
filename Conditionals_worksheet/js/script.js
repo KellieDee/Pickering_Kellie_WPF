@@ -5,18 +5,22 @@
  */
 
 
-/*Celsius to Fahrenheit Converter
-var degree;
+// LAST CHANCE FOR GAS (GROUP 1)
+const MilesPerGallon = 21; // amount of miles that can be traveled per gallon of gas
+const GasTankCapacity = 10; // maximum amount of gallons the car can hold
+var GasGauge = 0.5; // percentage of gas in the tank
+var Gallons = GasTankCapacity * GasGauge; // actual amount of gas the car has (in gallons)
 
-// Ask user for current temperature in Celsius or Fahrenheit
-degree = prompt("What is the current temperature? \nType 'C' for Celsius of 'F' for Fahrenheit.");
-
-if(degree){
-    console.log("The temperature is " + degree + " degrees Fahrenheit.");
+if((MilesPerGallon * GasTankCapacity) * GasGauge >= 200){
+    console.log("Yes, you can make it without stopping for gas!");
 }else{
-    console.log("The temperature is " + degree + " degrees Celsius.");
+    console.log("You only have " + Gallons + " gallons of gas in your tank, better get gas now while you can!");
 }
-*/
+/*
+    Tested code with 50% (0.5) full gas tank   Result: 5 gallons, need to gas up
+    Tested code with 100% (1) full gas tank    Result: I can make the trip
+ */
+
 
 
 // CHECK THE LOGIN (GROUP 2)
@@ -44,6 +48,7 @@ if(username === namePrompt && password != passPrompt){
     Tested code with "Kellie" and "12345"   Result: "User not found. Try again."
     Tested code with "Admin" and "23456"    Result: "Password does not match our records."
  */
+
 
 
 // MOVIE TICKET PRICE (GROUP 3)
