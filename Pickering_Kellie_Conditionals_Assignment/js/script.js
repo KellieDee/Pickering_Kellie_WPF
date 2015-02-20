@@ -38,7 +38,7 @@ today === "yes" ? console.log("Happy birthday!") : console.log("Happy \"Unbirthd
 if(today === "no" && thisMonth === "yes"){
     console.log("Your real birthday is right around the corner!");
     // If their birthday is less than one year away, calculate the number of days left.
-}else if(thisMonth === "no" && birthdayMonth <= 8 && birthdayMonth > 2){
+}else if(thisMonth === "no" && birthdayMonth <= Number(currentMonth)+ 6 && birthdayMonth > currentMonth){
     console.log("Not much longer until your real birthday! Only " + daysAway + " days left!");
     // Otherwise, tell the user their birthday is far away.
 }else{
