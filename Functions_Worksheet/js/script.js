@@ -6,7 +6,7 @@
 
 // alert("Javascript Works!");
 
-// Calculate the are of a rectangle
+// Calculate the area of a rectangle
 /*
 var width =5;
 var height = 6;
@@ -17,4 +17,16 @@ function calculateArea(w,h){
     return w*h;
 }
 */
+
+// Calculate the circumference of a circle
+// Equation is C = 2(pi)r
+
+var pi = 3.14;
+var radius = 8;
+var circumference = calculateCircumference(radius);
+console.log("The circumference of the cirle is " + circumference);
+
+function calculateCircumference(r){
+    return 2 * pi * r;
+}
 
