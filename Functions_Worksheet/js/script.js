@@ -26,7 +26,7 @@ var radius = 8;
 // Set the value for the function in a variable
 var circumference = calculateCircumference(radius);
 // Write the result to the console
-console.log("The circumference of the cirle is " + circumference);
+console.log("The circumference of the circle is " + circumference);
 
 // Function with radius as a parameter
 function calculateCircumference(r){
