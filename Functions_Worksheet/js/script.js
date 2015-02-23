@@ -23,10 +23,28 @@ function calculateArea(w,h){
 
 var pi = 3.14;
 var radius = 8;
+// Set the value for the function in a variable
 var circumference = calculateCircumference(radius);
+// Write the result to the console
 console.log("The circumference of the cirle is " + circumference);
 
+// Function with radius as a parameter
 function calculateCircumference(r){
+    // Equation for the circumference of a circle
     return 2 * pi * r;
 }
 
+// Calculate how many bee stings it takes to kill an animal.
+// Equation is Lethal Bee Stings = 8.666666667 * pounds
+
+var weight = 20;
+var stingsPerPound = 8.666666667;
+// Set the value for the function in a variable
+var lethalStings = calculateStings(weight);
+// Write the result to the console
+console.log("It takes " + lethalStings + " bee stings to kill this animal.");
+
+//Function with weight as a parameter
+function calculateStings(w){
+    return w * stingsPerPound;
+}
