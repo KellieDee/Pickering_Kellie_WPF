@@ -46,5 +46,6 @@ console.log("It takes " + lethalStings + " bee stings to kill this animal.");
 
 //Function with weight as a parameter
 function calculateStings(w){
+    // Equation for the lethal amount of bee stings
     return w * stingsPerPound;
 }
