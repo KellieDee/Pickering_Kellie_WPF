@@ -7,6 +7,13 @@
 // Ask the user which lottery they want to play
 var userPrompt = prompt("Which lottery would you like to play? \n\nType \"Florida\" for the Florida Lottery. \nType \"Powerball\" for the Powerball Lottery.");
 
+//Validate the user's response
+while(userPrompt !== "Florida" && userPrompt !== "Powerball"){
+    // If the user's response is not Florida or Powerball, the script will prompt again
+    prompt("You didn't choose a lottery to play! \n\nType \"Florida\" for the Florida Lottery. \nType \"Powerball\" for the Powerball Lottery.");
+    break;
+}
+
 // Assign the function to variable values
 var fn1 = floridaRNG();
 var fn2 = floridaRNG();
