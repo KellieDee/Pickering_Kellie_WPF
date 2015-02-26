@@ -92,5 +92,5 @@ if(lottery === "Florida") {
     Prompt = "cat"          Result = "You didn't choose a lottery..."
     Prompt = "Florida"      Result = "15, 28, 14, 27, 24, 30"
     Prompt = "Powerball"    Result = "36, 40, 22, 25, 44 and PB 9"
-    
+
  */
